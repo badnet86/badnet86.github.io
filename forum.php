@@ -51,6 +51,15 @@ $result = mysqli_query($conn, $sql);
     <button type="submit">Beitrag senden</button>
   </form>
 </div>
+  <?php } ?>
+
+  <!-- Formular zum Hinzufügen eines Beitrags -->
+  <form method="post" action="">
+    <input type="text" name="name" placeholder="Name" required>
+    <textarea name="message" placeholder="Nachricht" required></textarea>
+    <button type="submit">Beitrag senden</button>
+  </form>
+</div>
 
 <?php
 // Datenbankverbindung schließen
